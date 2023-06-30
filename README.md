@@ -10,7 +10,7 @@ Under the hood of sc50 library the string data type is created as the following 
 typedef char *string;
 ```
 
-So string is a character pointer. It points to the strings firts characters' address and functions like printf will start to print out all the characters from this address until it reaches the `NULL` character. The C compiler adds the NULL character to the end of the string automatically.
+So string is a character pointer. It points to the strings firts characters' address and functions like printf will start to print out all the characters from this address until it reaches the `nul` (\0) character. The C compiler adds the nul character to the end of the string automatically.
 
 ```c
 char *string = "Hi!";
